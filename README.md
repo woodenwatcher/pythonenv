@@ -1,8 +1,8 @@
 ## python环境初始化崩溃的例子
 
 ```bash
-编译完成后执行python envtest.py
-在python3.6.10环境中会报“Fatal Python error: take_gil: NULL tstate”的错误并且崩溃，错误来自函数PyEval_InitThreads()
-在python3.7.10环境中能正常运行
+run python envtest.py
+crashed in python3.6.10, error message which from function PyEval_InitThreads is :“Fatal Python error: take_gil: NULL tstate”
+in python3.7.10,it's ok
 ```
 
